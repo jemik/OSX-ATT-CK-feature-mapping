@@ -45,7 +45,8 @@ rule IngressToolTransfer
   	$hex1 = { 20 72 73 79 6e 63 20 } // rsync
 		$hex2 = { 20 73 63 70 20 } // scp
 		$hex3 = { 20 73 66 74 70 20 } // sftp
-		$hex4 = { 46 54 50 4d 61 6e 61 67 65 72 } // FTPManager
+		$hex4 = { ?? 74 66 74 70 ?? } // tftp
+		$hex5 = { 46 54 50 4d 61 6e 61 67 65 72 } // FTPManager
 	condition:
 		any of them
 }
